@@ -22,7 +22,7 @@ class RedTrend
   def initialize(options = {})
     @options = options
     unless CYCLE_UNITS.include?(cycle_unit)
-      raise ArgumentError, "cycle unit must be in #{CYCLE_UNITS}"
+      raise ArgumentError, "cycle unit must be in #{CYCLE_UNITS.keys}"
     end
   end
 
