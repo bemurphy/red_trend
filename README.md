@@ -36,8 +36,6 @@ TODO
 
 ## Todos
 
-Rip ActiveSupport entirely if possible; otherwise narrow the inclusion.
-
 ## Contributing
 
 1. Fork it
