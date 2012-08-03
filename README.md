@@ -28,6 +28,8 @@ red_trend.record("post_views", 53)
 red_trend.top("post_views") # => ["53", "42"]
 ```
 
+TODO add configuration examples here
+
 ## How it works
 
 TODO
