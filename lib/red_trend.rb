@@ -1,6 +1,6 @@
 require 'redis'
 require "red_trend/version"
-require 'active_support/all'
+require 'tzinfo'
 
 class RedTrend
   CYCLE_UNITS = {
